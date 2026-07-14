@@ -98,7 +98,7 @@ Create a `.env` file in the project root.
 ```env
 DATABASE_URL="postgresql://postgres:YOUR_PASSWORD@localhost:5432/solar_power_suite"
 
-JWT_SECRET=SolarPowerSuite2026DevelopmentSecret
+JWT_SECRET=SolarPowerSuite@2026#JWT$Secret!Key*123456789
 
 JWT_EXPIRES_IN=7d
 
