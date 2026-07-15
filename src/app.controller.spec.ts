@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return "Solar Power Suite API"', () => {
+      expect(appController.getDBTime()).toBe('Solar Power Suite API');
     });
   });
 });
